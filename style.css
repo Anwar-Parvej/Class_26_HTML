@@ -1,0 +1,167 @@
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Banner section */
+.banner-section{
+    background-image: url(https://i.ibb.co/wYszYV7/15.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    color: #fff;
+    font-size: 28px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.getlink a{
+    background-color:#4272d7 ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 6px;
+    color: #fff;
+}
+
+.getlink a:hover{
+    background-color: orange;
+}
+
+
+/* Contact Section */
+.address{
+    width: 50%;
+    float:left ;
+
+}
+
+.form-section{
+    width: 50%;
+    float: right;
+}
+
+/* Video Section */
+
+.video{
+    width: 40%;
+    float: left;
+    }
+
+.article{
+    width: 60%;
+    float: right;
+}
+
+/* Menu Section */
+
+.logo{
+    float: left;
+    font-size: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+nav.menu_right{
+    float: right;
+}
+
+nav.menu_right ul{
+    margin: 0;
+}
+
+nav.menu_right ul li{
+    display: inline-block;
+}
+
+nav.menu_right ul li a {
+    padding: 0 18px;
+    line-height: 95px;
+    font-size: 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.article{
+    margin-top: 53px;
+}
+
+/* contact */
+
+.contact-section1{
+    text-align: center;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+.contact-section1 h6{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.adress{
+    width: 50%;
+    float: left;
+    margin-left: -200px;
+}
+
+.contact-section{
+    width: 50%;
+    float: right;
+}
+
+.contact-section input{
+    display: block;
+    margin-bottom: 20px;
+    width: 450px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn{
+    display: inline-block;
+    color:black;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-left: -461px;
+    margin-bottom: 60px;
+}
+
+.submit-btn:hover{
+    box-shadow: 1px 2px 20px 0 #ddd;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.footer{
+    margin-top: -17px;
+}
+
+.footer p{
+    background: black;
+    color: #fff;
+    padding: 30px 0px;
+}
